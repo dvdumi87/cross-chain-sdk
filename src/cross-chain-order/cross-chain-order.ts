@@ -159,7 +159,7 @@ export class CrossChainOrder {
             ext,
             {
                 ...orderInfo,
-                takerAsset: TRUE_ERC20[escrowParams.srcChainId]
+                takerAsset: TRUE_ERC20[escrowParams.srcChainId as keyof typeof TRUE_ERC20]
             },
             extra
         )
