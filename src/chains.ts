@@ -17,6 +17,7 @@ export const SupportedChains = [
     NetworkEnum.SEPOLIA_TESTNET,
     NetworkEnum.XLAYER,
     NetworkEnum.XLAYER_TESTNET,
+    NetworkEnum.XLAYER_DEVNET2,
     NetworkEnum.ETHERLINK,
     NetworkEnum.ETHERLINK_TESTNET
 ] as const
